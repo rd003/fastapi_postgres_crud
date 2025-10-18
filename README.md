@@ -1,5 +1,7 @@
 # REST API CRUD with fastapi and postgres
 
+It is a source code of my [blog post](https://ravindradevrani.com/posts/fastapi-crud-with-postgres/).
+
 ## Pre-requisite
 
 - Must have install `python 3.10+`
@@ -38,4 +40,5 @@ Replace DATABASE_URL with yours.
 - `alembic upgrade head` (will create tables in the database)
 - Run project with `uvicorn src.main:app --reload`. Bydefault, the app will be listening at `http://127.0.0.1:8000`
 - In the web browser, open this url `http://127.0.0.1:8000/docs`. It will open the `swagger ui`
+
 
