@@ -1,0 +1,27 @@
+@base_url = http://localhost:8000/api/books
+
+POST {{base_url}}
+Content-Type: application/json
+
+{
+  "title": "aaa",
+  "author": "bbb"
+}   
+
+###
+PUT {{base_url}}/8
+Content-Type: application/json
+
+{
+  "title": "jjj",
+  "author": "aaa"
+}  
+
+### 
+GET {{base_url}}
+
+### 
+GET {{base_url}}/8
+
+### 
+DELETE {{base_url}}/7

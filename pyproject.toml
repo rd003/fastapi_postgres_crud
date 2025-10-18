@@ -1,0 +1,14 @@
+[project]
+name = "book-crud"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.17.0",
+    "fastapi>=0.119.0",
+    "psycopg2-binary>=2.9.11",
+    "python-dotenv>=1.1.1",
+    "sqlalchemy>=2.0.44",
+    "uvicorn>=0.37.0",
+]
