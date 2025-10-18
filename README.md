@@ -2,7 +2,8 @@
 
 ## Pre-requisite
 
-- Must have install `python 3.10+` and `uv`
+- Must have install `python 3.10+`
+- Install `uv` from [here](https://docs.astral.sh/uv/getting-started/installation/) ,if it is not installed in your machine.
 - Either use Postgress in docker or install it 
 
 ## Tech used
@@ -37,3 +38,4 @@ Replace DATABASE_URL with yours.
 - `alembic upgrade head` (will create tables in the database)
 - Run project with `uvicorn src.main:app --reload`. Bydefault, the app will be listening at `http://127.0.0.1:8000`
 - In the web browser, open this url `http://127.0.0.1:8000/docs`. It will open the `swagger ui`
+
